@@ -1,7 +1,7 @@
 info:
   title: 'Get status code'
   description: 'Get the status code of any website.' 
-  x-21-quick-buy: '21 buy url http://10.244.183.245:3000/make_password/<desired number of words as an integer>'
+  x-21-quick-buy: '21 buy url http://10.244.183.245:3000/check_website/<website>'
   x-21-category: utilities
   x-21-app-image: "https://s3.amazonaws.com/usercontent.21.co/newApp.png"
   x-21-total-price:
@@ -10,7 +10,7 @@ info:
   contact:
     name: erres
     email: erres@tutanota.de
-host: 10.244.183.245:8000
+host: 10.244.183.245:3000
 schemes:
   - http
 basePath: /
