@@ -1,6 +1,6 @@
 info:
   title: 'Get HTTP status code'
-  description: 'Get the HTTP status code of any website.'
+  description: 'Get the HTTP status code of any website. Read full documentation at 10.244.183.245:4000/documentation'
   x-21-quick-buy: '21 buy url http://10.244.183.245:4000/check_website/www.google.com'
   x-21-category: utilities
   x-21-app-image: "https://s3.amazonaws.com/usercontent.21.co/newApp.png"
