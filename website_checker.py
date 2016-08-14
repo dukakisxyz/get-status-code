@@ -15,7 +15,7 @@ app.debug = True
 
 @app.route("/")
 def info():
-    return "To check the HTTP status of a website, run: 21 buy url http://10.244.183.245:4000/check_website/<www.website.com>
+    return "To check the HTTP status of a website, run: 21 buy url http://10.244.183.245:4000/check_website/<www.website.com>"
 
 #get website
 @app.route('/check_website/<string:website_url>')
