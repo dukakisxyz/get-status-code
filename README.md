@@ -5,7 +5,7 @@
 <p>This service returnes the HTTP status code of a given website, in exchange for bitcoin</p>
 <p> To check a website run: </p>
 
-<pre><code>21 buy 'http://[fcce:a977:ee7d:817b:3380:0000:0000:0001]:4000/check_website/<URL>'
+<pre><code>21 buy 'http://[fcce:a977:ee7d:817b:3380:0000:0000:0001]:4000/check_website/URL'
 </code></pre>
 <p> For example: </p>
 <pre><code>21 buy 'http://[fcce:a977:ee7d:817b:3380:0000:0000:0001]:4000/check_website/www.google.com'
