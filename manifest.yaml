@@ -1,16 +1,30 @@
 info:
-  title: 'Get HTTP status code'
-description: 'Get the HTTP status code of any website. Read full documentation here: http://bit.ly/2c0FJaa'
-  x-21-quick-buy: '21 buy http://10.244.183.245:4000/check_website/www.google.com'
+  title: 'Website checker'
+  description: 'Get the HTTP status code of any website.'
+  x-21-quick-buy: '$ 21 buy "http://[fcce:a977:ee7d:817b:3380:0000:0000:0001]:4000/check_website/<URL>"
+
+#   For example: $ 21 buy "http://[fcce:a977:ee7d:817b:3380:0000:0000:0001]:4000/check_website/www.google.com"
+
+
+#   Output:
+
+#       {
+
+#           "200": "OK"
+
+#       }
+
+'
   x-21-category: utilities
+  x-21-keywords: [status code, website, website status, URL]
   x-21-app-image: "https://s3.amazonaws.com/usercontent.21.co/newApp.png"
   x-21-total-price:
-    min: 500
-    max: 500
+    min: 5000
+    max: 5000
   contact:
     name: erres
     email: erres@tutanota.de
-host: 10.244.183.245:4000
+host: '[fcce:a977:ee7d:817b:3380:0000:0000:0001]:4000'
 schemes:
   - http
 basePath: /
