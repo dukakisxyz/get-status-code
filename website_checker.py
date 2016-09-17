@@ -35,13 +35,6 @@ def make_password(website_url = None):
         exception = {"Exception raised" : "Possibly %s doesn't exist" % (url)}
 		return json.dumps(exception)
 
-@app.route('/manifest')
-def manifest():
-    """Provide the app manifest to the 21 crawler.
-        """
-    with open('./manifest.yaml', 'r') as f:
-        manifest = yaml.load(f)
-    return json.dumps(manifest)
 
 if __name__ == "__main__":
     app.run(host=”::”, port=4000)
